@@ -14,17 +14,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="@string/txt_hello"
-        android:textSize="36sp" />
+        android:text="@string/str_hello" />
 
     <Button
-        android:id="@+id/btn_touch"
+        android:id="@+id/btn_say_hello"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/btn_txt_touch"
-        android:textAllCaps="false"
-        android:textSize="32sp" />
+        android:text="@string/str_say_hello"
+        android:textAllCaps="false" />
 
 </RelativeLayout>

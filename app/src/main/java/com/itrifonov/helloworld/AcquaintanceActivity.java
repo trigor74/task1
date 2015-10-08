@@ -13,14 +13,15 @@ public class AcquaintanceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_acquaintance);
 
-        Button btnIntroduce = (Button) findViewById(R.id.btn_introduce_my_self);
+        Button btnIntroduce = (Button) findViewById(R.id.btn_introduce_myself);
         btnIntroduce.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 TextView textHelloSmb;
                 textHelloSmb = (TextView) findViewById(R.id.txt_hello_smb);
                 textHelloSmb.setText(
-                        String.format("Hello, %s!", ((EditText) findViewById(R.id.editText)).getText()));
+                        String.format(getString(R.string.str_hello_smb),
+                                ((EditText) findViewById(R.id.edit_name)).getText()));
             }
         });
     }
