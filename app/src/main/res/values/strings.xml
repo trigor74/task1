@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">Hello, World!</string>
-    <string name="btn_txt_touch">Touch Me</string>
+    <string name="btn_txt_touch">Say Hello</string>
     <string name="txt_hello">Hello, World!</string>
-    <string name="txt_about_me">I\'m the first program \"Hello, World!\"</string>
+    <string name="txt_introduce">I\'m the first program \"Hello, World!\"</string>
     <string name="txt_what_you_name">What is you name?</string>
     <string name="txt_enter_name">Enter your name, please</string>
     <string name="txt_hello_smb">Hello, %s!</string>
+    <string name="label_acquaintance">Let\'s get acquainted?</string>
+    <string name="btn_txt_introduce_myself">Introduce Myself</string>
 </resources>
