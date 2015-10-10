@@ -17,11 +17,10 @@ public class AcquaintanceActivity extends AppCompatActivity {
         btnIntroduce.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TextView textHelloSmb;
-                textHelloSmb = (TextView) findViewById(R.id.txt_hello_smb);
-                textHelloSmb.setText(
-                        String.format(getString(R.string.str_hello_smb),
-                                ((EditText) findViewById(R.id.edit_name)).getText()));
+                EditText name = (EditText) findViewById(R.id.edit_name);
+                String hello = String.format(getString(R.string.str_hello_smb), name.getText());
+                TextView textHelloSmb = (TextView) findViewById(R.id.txt_hello_smb);
+                textHelloSmb.setText(hello);
             }
         });
     }

@@ -14,7 +14,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="@string/str_hello" />
+        android:text="@string/str_hello"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btn_say_hello"
